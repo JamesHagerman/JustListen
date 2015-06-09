@@ -1,4 +1,17 @@
-"scripts": {
-  "start": "supervisor server.js"
-},
-"main": "server.js"
+{
+  "name": "JustListn",
+  "description": "JustListn",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "compression": "*",
+    "node-sass": "*",
+    "socket.io": "*",
+    "forever": "*"
+  },
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+  "main": "server.js"
+}
